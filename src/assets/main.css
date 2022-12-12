@@ -1,0 +1,66 @@
+@import "./base.css";
+
+#app {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem; */
+
+  font-weight: normal;
+}
+
+/* a,
+.blue {
+  text-decoration: none;
+  color: rgb(0, 98, 189);
+  transition: 0.4s;
+} */
+
+/* @media (hover: hover) {
+  a:hover {
+    background-color: hsla(220, 100%, 37%, 0.2);
+  }
+} */
+
+/* @media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
+
+.list-group {
+  color: black;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shadow1 {
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 10%);
+}
+
+.ProseMirror {
+  border: 1px solid #ccc;
+  min-height: 50vh;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+
+img {
+  max-width: 630px;
+}
